@@ -1,0 +1,49 @@
+﻿.DBData{
+color:bule;
+}
+
+.pass{
+color:green;
+}
+
+.failure{
+color:red;
+}
+
+.user_root{
+color:red;
+}
+@keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+@-moz-keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+@-webkit-keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+@-o-keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+.WebsiteName{
+animation:WebsiteName 1s;
+-moz-animation:WebsiteName 1s;
+-webkit-animation:WebsiteName 1s;
+-o-animation:WebsiteName 1s;
+animation-timing-function: ease-in;
+-moz-animation-timing-function: ease-in;
+-webkit-animation-timing-function: ease-in;
+-o-animation-timing-function: ease-in;
+color:#FF6103;
+font-size:22px;
+font-weight:bold;
+}
+
+.WebsiteVer{
+color:grey;
+font-size:10px;
+}

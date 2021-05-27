@@ -1,0 +1,89 @@
+﻿.index_root{
+color:#FF4500;
+}
+
+.WebsiteVer{
+color:grey;
+font-size:10px;
+}
+
+@keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+@-moz-keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+@-webkit-keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+@-o-keyframes WebsiteName{
+	0%{color:grey;font-size:0;font-weight:normal}
+	100%{color:#FF6103;font-size:22;font-weight:bold}
+}
+.WebsiteName{
+animation:WebsiteName 0.5s;
+-moz-animation:WebsiteName 0.5s;
+-webkit-animation:WebsiteName 0.5s;
+-o-animation:WebsiteName 0.5s;
+animation-timing-function: ease-in;
+-moz-animation-timing-function: ease-in;
+-webkit-animation-timing-function: ease-in;
+-o-animation-timing-function: ease-in;
+color:#FF6103;
+font-size:22px;
+font-weight:bold;
+}
+
+
+
+@keyframes body{
+	0%{background:grey;}
+	100%{background:white}
+}
+@-moz-keyframes body{
+	0%{background:grey;}
+	100%{background:white}
+}
+@-webkit-keyframes body{
+	0%{background:grey;}
+	100%{background:white}
+}
+@-o-keyframes body{
+	0%{background:grey;}
+	100%{background:white}
+}
+body{
+animation:body 1s;
+-moz-animation: body 1s;	/* Firefox */
+-webkit-animation: body 1s;	/* Safari 和 Chrome */
+-o-animation: body 1s;	/* Opera */
+background:white
+}
+
+
+@keyframes input{
+	0%{background:grey;}
+	100%{background:white}
+}
+@-moz-keyframes input{
+	0%{background:grey;}
+	100%{background:white}
+}
+@-webkit-keyframes input{
+	0%{background:grey;}
+	100%{background:white}
+}
+@-o-keyframes input{
+	0%{background:grey;}
+	100%{background:white}
+}
+input{
+animation:input 1s;
+-moz-animation: input 1s;	/* Firefox */
+-webkit-animation: input 1s;	/* Safari 和 Chrome */
+-o-animation: input 1s;	/* Opera */
+background:white;
+}
